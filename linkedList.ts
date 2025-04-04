@@ -16,3 +16,10 @@ interface LinkedList {
     find(value: string): number | null;
     toString(): string;
 }
+
+function createNode(value: string | null = null): Node {
+    return {
+        value: value,
+        nextNode: null,
+    } as Node;
+}
