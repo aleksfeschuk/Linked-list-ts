@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const linkedList_1 = require("./linkedList");
+const list = (0, linkedList_1.createLinkedList)();
+list.append("dog");
+list.append("cat");
+list.append("parrot");
+list.append("hamster");
+list.append("snake");
+list.append("turtle");
+console.log(list.toString());
